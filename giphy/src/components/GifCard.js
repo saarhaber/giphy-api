@@ -1,10 +1,8 @@
 import React from 'react';
 
-function GifCard(){
+function GifCard(props){
     return(
-        <div>
-            
-        </div>
+        <img src={props.gif} height="200" width="200"  padding="10px 10px 10px 10px"/>
     )
 }
 
